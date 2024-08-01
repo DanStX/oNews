@@ -1,0 +1,16 @@
+.navigation {
+    
+
+    &__nav {
+
+        display: flex;
+        justify-content: end;
+        width: 80%;
+    }
+
+    &__nav-navbar a {
+
+        color: $white;
+        text-align: end;
+    }
+}

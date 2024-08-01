@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../Assets/css/style.css">
+    <title>O'CLOCK STUDENTS NEWS</title>
+</head>
+<body>
+    <div class="wrapper contact">
+        <!-- emmet: header>h1+p+nav>ul>li*3>a -->
+        <header class="left left--contact">
+          <h1 class="left__title">O'Clock Students News</h1>
+          <div class="left__paragraph">
+            <h2 class="left__subtitle"><strong class="left__subtitle-strong">Say a word</strong> contact us</h2>
+            <p class="left__paragraph-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque suscipit nibh quis porttitor. Integer iaculis mi urna, a pulvinar quam adipiscing ut. Vivamus vel vestibulum mauris.
+            </p>
+          </div>
+          <nav>
+            <ul class="left__nav">
+              <li class="left__nav-item"><a href="./about.html" class="left__nav-link">A Propos de nous</a></li>
+              <li class="left__nav-item"><a href="./planDuSite.html" class="left__nav-link">Plan du site</a></li>
+              <li class="left__nav-item"><a href="./mentionLegal.html" class="left__nav-link">Mentions légales</a></li>
+              <li class="left__nav-item"><a href="./../index.html" class="left__nav-link">Accueuil</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main class="right">
+          <!-- emmet: h2+article*6>a+h3+div(img+strong+time)+p+a -->
+          <h2 class="right__title">Contact</h2>
+          <form action="url" method="post" class="contact-form">
+              <div class="contact-form__row">
+                  <div class="contact-form__row-labell">
+                      <input type="radio" value="madame" id="mme" name="sexe"><label for="mme">Mme</label> /
+                      <input type="radio" value="monsieur" id="m" name="sexe"><label for="m" >M</label>
+                  </div>
+                  <input type="text" id="prenom" placeholder="Prenom" class="contact-form__item">
+                  <input type="text" id="nom" placeholder="Nom" class ="contact-form__item">
+              </div>
+              <div class="contact-form__row">
+                  <input type="email" id="email" placeholder="Adresse e-mail" class ="contact-form__item">
+              </div>
+              <div class="contact-form__row contact-form__row--bottom">                
+                  <label for="status">J'ai connu ce site grâce à</label>
+                  <select size="1" name="Status" id="status" class="contact-form__item">
+                      <option value="">ok ^^</option>
+                      <option value="fb">Facebook</option>
+                      <option value="twitter">Twitter</option>
+                      <option value="google">Google</option>
+                      <option value="bouche-a-oreilles">Bouche à oreilles</option>
+                      <option value="jpp">JT de 13h de Jean-Pierre Pernault</option>
+                      <option value="autre">Autre</option>
+                  </select>
+              </div>
+              <div class="contact-form__row">
+                  <label for="message" class="contact-form__label">Pour laisser un commentaire libre à propos d'O'clock c'est par ici :</label>                
+              </div>
+              <div class="contact-form__row contact-form__row--bottom">          
+                      <textarea name="message" placeholder="Votre message" id="message" class="contact-form__item contact-form__item--textarea"></textarea> 
+              </div>
+              <div class="contact-form__row contact-form__row--bottom">
+                  <input type="checkbox" name="certification" id="certification" class="contact-form__item contact-form__item--checkbox">
+                  <label for="certification">Je certifie la véracité de ces informations.</label>
+              </div>
+              <div class="contact-form__row contact-form__row--bottom">
+                  <label for="document">Ajouter un fichier :</label>&nbsp;
+                  <input type="file" id="document" name="document">
+              </div>
+              
+              <button class="contact-form__submit">Envoyer</button>
+  
+          </form>
+        </main>
+      </div>
+  </body>
+</body>
+</html>

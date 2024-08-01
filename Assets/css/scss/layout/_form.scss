@@ -1,0 +1,64 @@
+
+
+    .contact-form {
+        border: 1px solid #eaeaea;
+        padding: 2.5rem;
+        margin: 20rem 5rem;
+        height: 50vh;
+        width: 42vw;
+        font-size: $fs-medium;
+      }
+      
+      .contact-form__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+      
+      .contact-form__row--bottom {
+        border-bottom: 1px solid #eaeaea;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.4rem;
+      }
+      
+      .contact-form__label {
+        width: 1.3rem;
+        /* très petit, mais c'est un choix car [voir ligne suivante] */
+        flex: 1;
+        /* permet de dire aux items de s'agrandir en "récupérant" les espaces vides */
+      }
+      
+      .contact-form__item {
+        width: 10px;
+        /* très petit, mais c'est un choix car [voir ligne suivante] */
+        flex: 1;
+        /* permet de dire aux items de s'agrandir en "récupérant" les espaces vides */
+        background-color: #f9f9f9;
+        border: 0;
+        border-bottom: 1px solid #4cced3;
+        padding: 3px 1px;
+        margin: 4px;
+      }
+      
+      .contact-form__item--textarea {
+        height: 100px;
+        padding: 1em;
+        margin: 0;
+      }
+      
+      .contact-form__item--checkbox {
+        flex: 0 1 auto;
+        /* je retire le flex-grow pour cet item */
+        width: 1.5em;
+      }
+      
+      .contact-form__submit {
+        background-color: #4cced3;
+        color: white;
+        font-weight: 700;
+        padding: 5px 10px;
+        border-radius: 4px;
+        border: 0;
+        font-size: 1.2em;
+      }

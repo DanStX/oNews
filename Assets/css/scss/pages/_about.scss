@@ -1,0 +1,15 @@
+.about {
+    
+    .left {
+        background-image: url(/Assets/images/nicole.jpg);
+    
+        &__paragraph {
+            
+            background-color: rgba($color: #fff, $alpha: 0.2);
+    
+            &-para {
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.big-title {
+    margin: 1rem;
+    display: flex;
+    // align-items: center;
+    align-content: center;
+    width: 7rem;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+
+    &__img {
+        height: 5rem;
+        width: 5rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+}
